@@ -1,8 +1,35 @@
-# Expense-Tracker
-📌 Project Description
+# Expense Tracker (Python)
 
-This Expense Tracker is a beginner-friendly Python project built to practice fundamental programming concepts such as lists, dictionaries, loops, user input handling, and conditional logic. The application runs in a command-line interface and allows users to add expenses, view all recorded entries, and calculate total spending.
+A simple command-line Expense Tracker built to practice foundational Python concepts including lists, dictionaries, loops, user input handling, and conditional logic. The program allows users to add expenses, view all recorded entries, and calculate total spending through a clear, menu-based interface.
 
-Each expense is stored as a dictionary inside a list, demonstrating how simple data structures can be used to organize and manage real-world information. The program uses a clear, menu-driven flow that guides the user through all available actions, reinforcing control structures and basic input/output operations.
+---
 
-Though simple in functionality, this project represents the foundation of my Python learning journey. It reflects the process of turning basic concepts into a practical tool and marks an early step toward building more advanced and structured applications.
+## 📌 Features
+- Add expense with date, category, description, and amount  
+- View all stored expenses  
+- Calculate total spending  
+- Easy-to-use menu system  
+- Beginner-friendly code structure
+
+---
+
+## 🛠️ Technologies Used
+- Python 3  
+- Core concepts practiced:
+  - Lists & Dictionaries  
+  - While loops  
+  - If/elif/else  
+  - Formatted printing  
+
+---
+
+## 📂 Data Structure
+Each expense is stored as a dictionary inside a list:
+
+```python
+{
+    "date": "DD-MM-YYYY",
+    "category": "Food/Travel/etc.",
+    "description": "Short note",
+    "amount": "Numeric value"
+}
